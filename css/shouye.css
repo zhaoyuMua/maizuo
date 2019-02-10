@@ -1,0 +1,202 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";font-size: 12px;}
+input,a{outline:none;}
+
+html{
+	font-size:31.25vw;
+}
+
+header{
+	width: 100%;
+	height: 1.79rem;
+	position:fixed;
+	top:0px;
+}
+header .site{
+	width: 0.5rem;
+	height: 0.3rem;
+	background: #1c3c49;
+	opacity: 0.7;
+	position: absolute;
+	top:0.18rem;
+	left: 0.07rem;
+	border-radius: 0.12rem;
+	z-index: 4;
+}
+header .site i{
+	width: 0.07rem;
+	height: 0.07rem;
+	position: absolute;
+	top:0.09rem;
+	left: 0.3rem;
+	color: #fff;
+
+}
+#lunbo_ul{
+    /*height:2.10rem;*/
+    width: 26.25rem;
+    height: 1.79rem;
+    position: absolute;
+    transition: all 1s;
+}
+#lunbo_ul li{
+    float: left;
+}
+.banner1_img{
+    width: 3.20rem;
+    /*height: 2.10rem;*/
+    height: 1.79rem;
+}
+#banner1_page{
+    position: absolute;
+    bottom:0.2rem;
+    right: 0.1rem;
+    padding: 0.03rem 0.05rem;
+    z-index: 1;
+}
+#banner1_page li{
+    width: 0.04rem;
+    height: 0.04rem;
+    border: 0.01rem solid #fff;
+    border-radius:50% ;
+    float: left;
+    margin-right:0.05rem; 
+}
+
+header .site p{
+	color: #fff;
+	margin-left: 0.06rem;
+	line-height: 0.3rem;
+}
+/*header ul li img{
+	width: 3.75rem;
+    height: 2.10rem;
+	position: absolute;
+}
+header #lunbo_ul li{float: left;} */
+
+
+nav{
+	width: 100%;
+	height: 0.5rem;
+	background: #fff;
+	position:fixed;
+	top:1.79rem;
+}
+nav ul li{
+	float: left;
+	width: 1.60rem;
+	height: 100%;
+	text-align: center;
+
+}
+nav ul li a{
+	display: inline-block;
+	width: 0.57rem;
+	height: 0.31rem;
+	margin:0.16rem auto;
+	/*border-bottom: 0.02rem solid #ff5f16;*/
+	font-size: 0.12rem;
+}
+
+#case_left{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	position: fixed;
+	top: 2.29rem;
+	bottom: 0.49rem;
+	overflow: auto;
+}
+#case_right{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	position: fixed;
+	top: 2.29rem;
+	bottom: 0.49rem;
+	overflow: auto;
+}
+#case_left li{
+	width: 100%;
+	height: 0.91rem;
+	margin:0.13rem;
+	position: relative;
+}
+#case_right li{
+	background: #c1c1c1;
+	width: 100%;
+	height: 0.91rem;
+	margin:0.13rem;
+	position: relative;
+}
+#case_left li img{width: 0.65rem;height: 0.89rem;float: left;}
+#case_right li img{width: 0.65rem;height: 0.89rem;float: left;}
+#case_left li p{margin-top: 0.02rem;}
+#case_right li p{margin-top: 0.02rem;}
+#case_left li p:nth-of-type(1){font-size: 0.14rem;margin-top: 0.09rem;margin-left: 0.7rem;}
+#case_right li p:nth-of-type(1){font-size: 0.14rem;margin-top: 0.09rem;margin-left: 0.7rem;}
+#case_left li p:nth-of-type(2){font-size: 0.12rem;margin-left: 0.7rem;color: #797d82;}
+#case_right li p:nth-of-type(2){font-size: 0.12rem;margin-left: 0.7rem;color: #797d82;}
+#case_left li p:nth-of-type(2) em{color: #ffc832;}
+#case_right li p:nth-of-type(2) em{color: #ffc832;}
+#case_left li p:nth-of-type(3){font-size: 0.12rem;margin-left: 0.7rem;color: #797d82;}
+#case_right li p:nth-of-type(3){font-size: 0.12rem;margin-left: 0.7rem;color: #797d82;}
+#case_left li p:nth-of-type(4){font-size: 0.12rem;margin-left: 0.7rem;color: #797d82;}
+#case_right li p:nth-of-type(4){font-size: 0.12rem;margin-left: 0.7rem;color: #797d82;}
+#case_left li span{position: absolute;right: 0.36rem;top:0.45rem;}
+#case_right li span{position: absolute;right: 0.36rem;top:0.45rem;}
+#case_left li span a{
+	display:inline-block;
+	width: 0.49rem;
+	height: 0.24rem;
+	border:0.01rem solid #ff5f16;
+	text-align: center;
+	line-height: 0.24rem;
+	font-size: 0.14rem;
+	color: #ff5f16;
+	border-radius: 0.03rem;
+}
+#case_right li span a{
+	display:inline-block;
+	width: 0.49rem;
+	height: 0.24rem;
+	border:0.01rem solid #ff5f16;
+	text-align: center;
+	line-height: 0.24rem;
+	font-size: 0.14rem;
+	color: #ff5f16;
+	border-radius: 0.03rem;
+}
+
+footer{
+	width: 100%;
+	height: 0.49rem;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	align-content: space-between;
+}
+footer dl{
+	width: 0.77rem;
+	height: 0.47rem;
+	text-align: center;
+}
+footer dl dt i{
+	width: 0.23rem;
+	height: 0.23rem;
+	font-size: 1rem;
+	position: absolute;
+	bottom: 0.19rem;
+	
+	line-height: 0.23rem;
+}
+footer dl dd{
+	margin-top: 0.29rem;
+}
